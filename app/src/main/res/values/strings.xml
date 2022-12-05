@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">MyTask</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="selesai">Selesai</string>
+    <string name="statusBelumSelesai">Belum Selesai</string>
+    <!--    Dialog-->
+    <string name="ok">Ok</string>
+    <string name="yakin">Yakin</string>
+    <string name="batal">Batal</string>
+    <string name="isiDialog">Isi Dialog</string>
+    <string name="judulDialog">Judul Dialog</string>
+    <string name="dialogJudul">Sukses</string>
+    <string name="dialogSuksesAddTugas">Berhasil menambahkan tugas</string>
+    <string name="dialogSuksesEditTugas">Berhasil mengedit tugas</string>
+    <string name="hapusTugas">Yakin ingin menghapus tugas?</string>
+    <string name="subHapusTugas">Tugas yang dihapus tidak dapat dikembalikan lagi</string>
+    <string name="selesaikanTugas">Selesaikan Tugas</string>
+    <string name="subSelesaikanTugas">Tekan yakin jika tugas kamu sudah selesai</string>
+    <string name="historyDelete">Hapus History</string>
+    <string name="subHistoryDelete">History yang terhapus tidak dapat dipulihkan</string>
+
+
+    <!--    Adapter Tugas-->
+    <string name="judulTugas">Judul Tugas</string>
+    <string name="isiTugas">Isi Tugas</string>
+    <string name="kategoriTugas">Kategori Tugas</string>
+    <string name="detailTugas">Detail Tugas</string>
+
+    <!--    Add Tugas-->
+    <string name="tambahTugas">Tambah Tugas</string>
+    <string name="kategriTugas">Kategori Tugas</string>
+    <string name="masukkanJudulTugas">Masukkan Judul Tugas</string>
+    <string name="masukkanIsiTugas">Masukkan Isi Tugas</string>
+    <string name="simpan">Simpan</string>
+
+    <!--    Kategori Array-->
+    <string-array name="kategoriArray">
+        <item>Penting Mendesak</item>
+        <item>Tidak Penting Mendesak</item>
+        <item>Penting Tidak Mendesak</item>
+        <item>Tidak Penting Tidak Mendesak</item>
+    </string-array>
+
+    <!--    Error-->
+    <string name="judul_kosong">Judul harus diisi</string>
+    <string name="isi_kosong">Isi tugas tidak boleh kosong</string>
+    <string name="kategori_kosong">Kategori tugas belum dipilih</string>
+    <string name="historyKosong">History kosong</string>
+    <string name="tugasKosong">Tidak ada tugas untuk saat ini</string>
+
+    <!--    Popup menu (more option)-->
+    <string name="edit_tugas">Edit Tugas</string>
+    <string name="hapus_tugas"><font color="#E0144C">Hapus Tugas</font></string>
+    <!--    Testing-->
+    <string name="loremipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="daftar_tugas_kamu">Daftar Tugas Kamu</string>
+
+    <!--    Bot-->
+    <string name="jumlahTugas1">Masih ada</string>
+    <string name="jumlahTugas2">tugas yang belum dikerjakan</string>
+
+    <string name="jumlahTugas0">Tidak ada tugas saat ini</string>
+
+
+<!--    onboarding-->
+    <string name="onboard_judul1">Akses tugas di mana saja</string>
+    <string name="onboard_judul2">Management tugas</string>
+    <string name="onboard_desk1">Kamu bisa mengakses tugas kamu dimana saja dan kapan saja tanpa perlu akses internet</string>
+    <string name="onboard_desk2">Atur tugas kamu agar tidak menjadi beban bagi yang lain</string>
+
+
+</resources>

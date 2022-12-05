@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.D121201075.mytask.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_historyFragment"
+            app:destination="@id/historyFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_tambahTugasFragment"
+            app:destination="@id/tambahTugasFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_detailTugasFragment"
+            app:destination="@id/detailTugasFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_editTugasFragment"
+            app:destination="@id/editTugasFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.D121201075.mytask.fragments.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" >
+        <action
+            android:id="@+id/action_historyFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_historyFragment_to_detailTugasFragment"
+            app:destination="@id/detailTugasFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tambahTugasFragment"
+        android:name="com.D121201075.mytask.fragments.TambahTugasFragment"
+        android:label="fragment_tambah_tugas"
+        tools:layout="@layout/fragment_tambah_tugas" >
+        <action
+            android:id="@+id/action_tambahTugasFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailTugasFragment"
+        android:name="com.D121201075.mytask.fragments.DetailTugasFragment"
+        android:label="fragment_detail_tugas"
+        tools:layout="@layout/fragment_detail_tugas" >
+        <action
+            android:id="@+id/action_detailTugasFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <argument
+            android:name="currentTugas"
+            app:argType="com.D121201075.mytask.model.Tugas" />
+        <action
+            android:id="@+id/action_detailTugasFragment_to_historyFragment"
+            app:destination="@id/historyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editTugasFragment"
+        android:name="com.D121201075.mytask.fragments.EditTugasFragment"
+        android:label="fragment_edit_tugas"
+        tools:layout="@layout/fragment_edit_tugas" >
+        <action
+            android:id="@+id/action_editTugasFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <argument
+            android:name="currentTugas"
+            app:argType="com.D121201075.mytask.model.Tugas" />
+    </fragment>
+</navigation>

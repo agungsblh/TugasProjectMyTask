@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/rounded_edittext"
+        android:orientation="vertical">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/anim"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="10dp"
+            android:scaleType="centerCrop"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/anim_delete" />
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:text="@string/judulDialog"
+            android:textColor="@color/biru_primary"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/isi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:text="@string/isiDialog"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/no"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/buttonHeight"
+                app:backgroundTint="#F33D3D"
+                android:layout_marginStart="@dimen/marginStartEnd"
+                android:layout_marginEnd="@dimen/marginStartEnd"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/rounded_button"
+                android:fontFamily="@font/roboto_bold"
+                android:text="@string/batal"
+                android:textAllCaps="false"
+                android:textSize="@dimen/buttonText"
+                android:singleLine="true"/>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/yes"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/buttonHeight"
+                android:layout_marginStart="@dimen/marginStartEnd"
+                android:layout_marginEnd="@dimen/marginStartEnd"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/rounded_button"
+                android:fontFamily="@font/roboto_bold"
+                android:text="@string/yakin"
+                android:textAllCaps="false"
+                android:textSize="@dimen/buttonText"
+                android:singleLine="true" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

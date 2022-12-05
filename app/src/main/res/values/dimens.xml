@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <dimen name="marginStartEnd">20dp</dimen>
+    <dimen name="marginTopBot">20dp</dimen>
+    <dimen name="marginTopM">10dp</dimen>
+    <dimen name="marginAll">20dp</dimen>
+
+    <!--    Text size-->
+    <dimen name="buttonText">14sp</dimen>
+    <dimen name="judulText">16sp</dimen>
+    <dimen name="normalText">14sp</dimen>
+    <dimen name="subText">12sp</dimen>
+    <dimen name="textHeight">50dp</dimen>
+    <dimen name="minHeightInputText">150dp</dimen>
+
+    <dimen name="h1">96sp</dimen>
+    <dimen name="h2">60sp</dimen>
+    <dimen name="h3">48sp</dimen>
+    <dimen name="h4">34sp</dimen>
+    <dimen name="h5">24sp</dimen>
+    <dimen name="h6">20sp</dimen>
+
+    <!--    Button-->
+    <dimen name="buttonHeight">50dp</dimen>
+
+    <!--    Card-->
+    <dimen name="cardCornerRadius">10dp</dimen>
+
+    <!--    Adapter-->
+    <dimen name="adapterPadding">10dp</dimen>
+    <dimen name="ATextTopMargin">5dp</dimen>
+    <dimen name="kategoriHeight">22dp</dimen>
+
+
+    <dimen name="design_fab_image_size" tools:override="true">35dp</dimen>
+</resources>

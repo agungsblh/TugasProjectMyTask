@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+    android:elevation="15dp"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="@dimen/cardCornerRadius"
+    android:id="@+id/klikTugas"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:padding="@dimen/adapterPadding"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/judul_tugas"
+                    android:layout_weight="0.2"
+                    android:text="@string/judulTugas"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/roboto_bold"
+                    android:textSize="@dimen/judulText"
+                    android:textColor="@color/black"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <RelativeLayout
+                    android:layout_weight="1.8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageButton
+                        android:id="@+id/popup_tugas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        app:tint="@color/white"
+                        android:layout_marginEnd="@dimen/ATextTopMargin"
+                        android:background="@drawable/rounded_button"
+                        android:src="@drawable/ic_more" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/isi_tugas"
+                android:text="@string/loremipsum"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="@dimen/ATextTopMargin"
+                android:fontFamily="@font/roboto"
+                android:textSize="@dimen/subText"
+                android:textColor="@color/black"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/kategori"
+                android:layout_marginTop="@dimen/ATextTopMargin"
+                android:text="@string/kategoriTugas"
+                android:background="@drawable/rounded_button"
+                android:fontFamily="@font/roboto"
+                android:textSize="@dimen/subText"
+                android:textColor="@color/white"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:paddingStart="@dimen/adapterPadding"
+                android:paddingEnd="@dimen/adapterPadding"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/kategoriHeight"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
