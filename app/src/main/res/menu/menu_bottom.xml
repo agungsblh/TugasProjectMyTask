@@ -4,7 +4,7 @@
         android:title="Home"
         android:icon="@drawable/ic_home"/>
     <item android:id="@+id/tambahTugasFragment"
-        android:title="" />
+        android:title=""/>
     <item android:id="@+id/historyFragment"
         android:title="History"
         android:icon="@drawable/ic_history"/>

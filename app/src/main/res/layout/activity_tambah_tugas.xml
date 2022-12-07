@@ -54,6 +54,7 @@
                 android:layout_height="@dimen/textHeight">
                 <AutoCompleteTextView
                     android:id="@+id/dropdown_menu"
+                    android:background="@drawable/rounded_edittext"
                     android:inputType="none"
                     android:textSize="@dimen/normalText"
                     android:hint="@string/kategoriTugas"
